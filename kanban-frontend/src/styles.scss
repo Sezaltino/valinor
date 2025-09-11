@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+/* src/styles.scss */
+/* SUBSTITUIR TODO O CONTEÚDO - ESTE É O ARQUIVO DE CSS */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-elevated {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.16);
+  }
+}
